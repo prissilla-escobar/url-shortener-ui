@@ -2,6 +2,7 @@ import React from 'react';
 import './UrlContainer.css';
 
 const UrlContainer = props => {
+  console.log(props)
   const urlEls = props.urls.map(url => {
     return (
       <div className="url">
