@@ -35,11 +35,6 @@ function App () {
     .then(data => addUrl(data))
   }
 
-  // const removeURL = (id) => {
-  //   const filteredURLs = urls.filter(url => url.id !== id)
-  //   setUrls(filteredURLs)
-  // }
-// console.log('urls36', urls)
   return (
     <main className="App">
       <header>
