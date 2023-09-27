@@ -9,8 +9,7 @@ function App () {
 
   useEffect(() => {
     getUrls()
-    .then(data => {console.log('fetch', data.urls)
-      setUrls(data.urls)})
+    .then(data => setUrls(data.urls))
   }, [])
 
   const addUrl = (newURL) => {
